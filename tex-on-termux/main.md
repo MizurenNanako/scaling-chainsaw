@@ -63,3 +63,15 @@ code-server 并非完全是 vscode，而是基于 vscode 的开源部分发展�
 ![install-jupyter](https://raw.githubusercontent.com/MizurenNanako/scaling-chainsaw/master/tex-on-termux/install-jupyter.jpg)
 
 > 先别急着问 LaTeX Workshop 怎么装上去的。
+
+对于不能直接从仓库中找到的插件，我们可以从微软的官网找到并安装。
+
+![LaTeX Workshop](https://raw.githubusercontent.com/MizurenNanako/scaling-chainsaw/master/tex-on-termux/latexworkshop.jpg)
+
+这样只能确保安装上，不能确保插件能正常运行。毕竟，大多数插件都是为了 x86 平台或者 arm 平台服务的，而常见的移动设备都是 aarch64。
+
+## Texlive
+
+接下来就是配置 Texlive 了。
+
+Texlive 的安装和配置是这整个配置中最为耗时的部分 （用过 tlmgr 的都知道下载时间要多久）。
