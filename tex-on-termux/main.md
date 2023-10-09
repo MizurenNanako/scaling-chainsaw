@@ -8,7 +8,7 @@
 
 我们可以先从 [termux官网](https://termux.dev/en/) 获取 termux，（最好一并装上 termux-API）。
 
-![termux官网](./termux-official.jpg)
+![termux官网](https://raw.githubusercontent.com/MizurenNanako/scaling-chainsaw/master/tex-on-termux/termux-official.jpg)
 
 显然，我们需要通过常规的 apk 安装方式来安装 termux （意思就是直接装），以及 termux-api。
 
@@ -24,14 +24,14 @@ pkg install code-server
 
 > 值得一提的是，此处 termux 会建议你选一个比较近的服务器：
 
-![安装 `code-server`，此处我已经安装过了。](./codeserver-install.jpg)
+![安装 `code-server`，此处我已经安装过了。](https://raw.githubusercontent.com/MizurenNanako/scaling-chainsaw/master/tex-on-termux/codeserver-install.jpg)
 
 
 在一切没有意外的情况下，经过漫长的等待，我们可以跑 `code-server` 了！
 
 随手开个浏览器访问 `localhost:8080` 看看吧。
 
-![如图所示](./codeserver-welcome.jpg)
+![如图所示](https://raw.githubusercontent.com/MizurenNanako/scaling-chainsaw/master/tex-on-termux/codeserver-welcome.jpg)
 
 > 因为此处我已经在编辑，所以直接打开了用过的文件夹。
 
@@ -46,6 +46,8 @@ pkg install python-numpy
 pkg install matplotlib
 ```
 
+相信 Python 对于大部分的人来说都是必要的，所以这里十分建议直接安装。
+
 ## Code Server Plugins
 
 > 接下来就是正题
@@ -56,4 +58,8 @@ code-server 并非完全是 vscode，而是基于 vscode 的开源部分发展�
 
 对于能直接在 code-server 插件仓库找到的插件，基本上可以认为是已经适配好了的，我们不妨直接上手：
 
-> 建议安装 `Python` 和一堆 `Jupyter`。
+比如 `Python` 和一堆 `Jupyter`。
+
+![install-jupyter](https://raw.githubusercontent.com/MizurenNanako/scaling-chainsaw/master/tex-on-termux/install-jupyter.jpg)
+
+> 先别急着问 LaTeX Workshop 怎么装上去的。
